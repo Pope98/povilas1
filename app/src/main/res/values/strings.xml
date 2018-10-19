@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">povilas</string>
+    <string name="output_text">results appear here...</string>
+    <string name="search_hint">type any word...</string>
+    <string name="search_title">Search</string>
+    <string name="API_KEY">X7MmtDfDWEmshGrZETAwmSjpf2qBp1q3O3fjsnIMIe4Hr6pUpy</string>
+    <string name="API_LINK">https://wordsapiv1.p.mashape.com/words/</string>
+    <string name="MY_API_KEY">AIzaSyADGzcfaVaY_FzABfCsfLTKZsNsO7WIeQc</string>
+    <string name="gas">gas</string>
+    <string name="flight">flight</string>
+    <string name="groceries">groceries</string>
+    <string name="hotel">hotel</string>
+    <string name="restaurant">restaurant</string>
+    <string name="googleDefault">default</string>
+    <string name="random">random</string>
+    <string name="clean_history">Clean history</string>
+    <string name="markers">Markers</string>
+    <string name="maps">Maps</string>
+    <string name="normal">Normal</string>
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+    <string name="clearMap">Clear Markers</string>
+</resources>

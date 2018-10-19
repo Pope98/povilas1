@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/markers"
+        app:showAsAction="never">
+        <!-- Markers submenu -->
+        <menu>
+            <item android:id="@+id/defaultMarker"
+                android:title="@string/googleDefault"
+                app:showAsAction="never" />
+            <item android:id="@+id/random"
+                android:title="@string/random"
+                app:showAsAction="never" />
+            <item android:id="@+id/gas"
+                android:title="@string/gas"
+                android:icon="@drawable/gas"
+                app:showAsAction="never" />
+            <item android:id="@+id/flight"
+                android:title="@string/flight"
+                android:icon="@drawable/flight"
+                app:showAsAction="never" />
+            <item android:id="@+id/groceries"
+                android:title="@string/groceries"
+                android:icon="@drawable/groceries"
+                app:showAsAction="never" />
+            <item android:id="@+id/hotel"
+                android:title="@string/hotel"
+                android:icon="@drawable/hotel"
+                app:showAsAction="never" />
+            <item android:id="@+id/restaurant"
+                android:title="@string/restaurant"
+                android:icon="@drawable/restaurant"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item
+        android:title="@string/maps"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/normal"
+                android:title="@string/normal"
+                app:showAsAction="never" />
+            <item android:id="@+id/satellite"
+                android:title="@string/satellite"
+                app:showAsAction="never" />
+            <item android:id="@+id/terrain"
+                android:title="@string/terrain"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/cleanMap"
+        android:title="@string/clearMap"
+        app:showAsAction="never"/>
+
+</menu>
